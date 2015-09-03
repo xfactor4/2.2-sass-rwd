@@ -1,0 +1,494 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background: url(../bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 2300px;
+  z-index: -3; }
+  body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0f0f0f;
+    opacity: .6;
+    height: 2320px;
+    z-index: -2; }
+
+.socialicons {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  height: 5em;
+  z-index: -1;
+  display: block;
+  max-width: 15em;
+  margin-left: 56%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .socialicons:last-child {
+    margin-right: 0; }
+
+.container {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 130em;
+  z-index: -1;
+  margin-left: 10.5%;
+  margin-top: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.button-list {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0; }
+  .button-list::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.button {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .button:last-child {
+    margin-right: 0; }
+
+.buttons {
+  width: 100%;
+  height: 2.75em;
+  background-color: #B32E2E;
+  border-bottom: solid gray;
+  color: white; }
+
+.hero::before {
+  content: "";
+  background-image: url(../peraltalogo.png);
+  display: block;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  width: 415px;
+  height: 241px; }
+
+.hero {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../topimage.png);
+  background-size: cover;
+  background-position: top right;
+  width: 100%;
+  height: 355px;
+  border: 10px solid #fefefe; }
+  .hero::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.picturebutton-list {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none; }
+  .picturebutton-list::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.dot {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  width: 5%;
+  margin: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 420px;
+  bottom: 0; }
+  .dot:last-child {
+    margin-right: 0; }
+
+.dots {
+  margin: 0; }
+
+.article-list {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding-left: 0; }
+  .article-list::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.article {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .article:last-child {
+    margin-right: 0; }
+
+.articles {
+  background-color: #fefefe;
+  width: 100%;
+  height: 415px;
+  margin-top: 0;
+  padding: 10px; }
+
+.read-more-text {
+  color: #B32E2E;
+  text-align: center; }
+
+.facepicture-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin: 10px; }
+  .facepicture-list:last-child {
+    margin-right: 0; }
+
+.face1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-image: url(../skater4.png);
+  padding-left: 0;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #fefefe; }
+  .face1:last-child {
+    margin-right: 0; }
+
+.facetext1 {
+  color: #FFFFFF;
+  height: 10px;
+  width: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px; }
+
+.face2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-image: url(../skater3.png);
+  padding: 10px;
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #fefefe; }
+  .face2:last-child {
+    margin-right: 0; }
+
+.face3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  background-image: url(../skater1.png);
+  height: 230px;
+  margin-top: 25px;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #fefefe; }
+  .face3:last-child {
+    margin-right: 0; }
+
+.face4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  background-image: url(../skater2.png);
+  padding: 10px;
+  height: 486px;
+  margin-right: 0;
+  background-size: cover;
+  background-position: right;
+  float: right;
+  position: relative;
+  bottom: 230px;
+  border: 5px solid #fefefe; }
+  .face4:last-child {
+    margin-right: 0; }
+
+.skateboards {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px; }
+  .skateboards::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.board-pictures {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  bottom: 220px;
+  height: 370px;
+  padding-top: 15px;
+  padding-right: 20px; }
+  .board-pictures:last-child {
+    margin-right: 0; }
+
+.board-pic1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-1.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic1:last-child {
+    margin-right: 0; }
+
+.board-pic2 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-2.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic2:last-child {
+    margin-right: 0; }
+
+.board-pic3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-3.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic3:last-child {
+    margin-right: 0; }
+
+.board-pic4 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-4.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic4:last-child {
+    margin-right: 0; }
+
+.board-pic5 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-5.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic5:last-child {
+    margin-right: 0; }
+
+.board-pic6 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-6.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic6:last-child {
+    margin-right: 0; }
+
+.board-pic7 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-7.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic7:last-child {
+    margin-right: 0; }
+
+.board-pic8 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-8.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic8:last-child {
+    margin-right: 0; }
+
+.board-pic9 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-9.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic9:last-child {
+    margin-right: 0; }
+
+.board-pic10 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../sk8-10.png);
+  background-size: cover;
+  bottom: 200px;
+  height: 330px; }
+  .board-pic10:last-child {
+    margin-right: 0; }
+
+.contact-us-wrapper {
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+  height: 22.63em;
+  padding: 10px;
+  box-shadow: 0 4 rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+  position: absolute;
+  margin-top: 600px; }
+  .contact-us-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.contact-us-article {
+  float: left;
+  display: block;
+  margin-right: 2.35%;
+  width: 57.35%;
+  padding-left: 10px;
+  line-height: 2em; }
+
+.contact-heading {
+  margin-top: 10px; }
+
+.p {
+  display: block; }
+
+.contact-us-input:last-child {
+  margin-right: 0; }
+
+.contact-us-input {
+  float: left;
+  display: block;
+  width: 40.29%; }
+
+.contact-us-inputs {
+  width: 100%; }
+
+.form {
+  display: block;
+  margin-top: 0em; }
+
+.contact-input {
+  float: left;
+  display: block;
+  margin-right: 5.85%;
+  width: 89.41%;
+  height: 2.75em;
+  margin: 1.25em 0;
+  border: 1px solid #9f9f9f;
+  box-shadow: inset 3px 3px rgba(0, 0, 0, 0.3);
+  padding: 5px; }
+
+.contact-input-your-message {
+  resize: none;
+  height: 6.75em;
+  box-shadow: inset 3px 3px rgba(0, 0, 0, 0.3);
+  width: 89.41%; }
+
+.submit:last-child {
+  margin-right: 0; }
+
+.submit {
+  float: left;
+  display: block;
+  width: 57.66%;
+  margin-left: 31.755%;
+  background-color: #B32E2E;
+  height: 40px;
+  border: none;
+  color: white;
+  text-transform: uppercase; }
